@@ -32,5 +32,7 @@ sleep 1
 rm -rf hardware/google/pixel/kernel_headers/Android.bp
 
 # Kernel & Vendor Sources
-git clone https://github.com/sayann70/vendor_xiaomi_spes vendor/xiaomi/spes
-git clone https://github.com/sayann70/kernel_xiaomi_spes_header kernel/xiaomi/spes
+git clone https://github.com/Jabiyeff/android_vendor_xiaomi_spes.git -b 13.0 vendor/xiaomi/spes &&
+git clone https://github.com/Jabiyeff/kernel_xiaomi_spes_header.git kernel/xiaomi/spes &&
+git clone https://github.com/LineageOS/android_hardware_xiaomi.git -b lineage-20 hardware/xiaomi &&
+git clone https://github.com/LineageOS/android_packages_resources_devicesettings.git -b lineage-20.0 packages/resources/devicesettings
