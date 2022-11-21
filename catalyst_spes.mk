@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/spes/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/catalyst/config/common_full_phone.mk)
+$(call inherit-product, vendor/catalyst/config/common.mk)
 
 # Additions
 $(call inherit-product-if-exists, vendor/gapps/common/common-vendor.mk)
